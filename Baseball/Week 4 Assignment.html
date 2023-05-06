@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.335">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Week 4 Assignment: Your Name</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<script src="Week 4 Assignment_files/libs/clipboard/clipboard.min.js"></script>
+<script src="Week 4 Assignment_files/libs/quarto-html/quarto.js"></script>
+<script src="Week 4 Assignment_files/libs/quarto-html/popper.min.js"></script>
+<script src="Week 4 Assignment_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="Week 4 Assignment_files/libs/quarto-html/anchor.min.js"></script>
+<link href="Week 4 Assignment_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="Week 4 Assignment_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="Week 4 Assignment_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="Week 4 Assignment_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="Week 4 Assignment_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Week 4 Assignment: Your Name</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="business-problem" class="level2">
+<h2 class="anchored" data-anchor-id="business-problem">Business Problem</h2>
+<p>You work for a consulting company to understand the factors on which professional Baseball players’ salaries depend.</p>
+<p>You are given individual data for professional players in the Major League along with their 1986 performance measures and 1987 salary.</p>
+<p>The business goal of the consulting firm is to model the logged salary of professional Baseball players with the available independent variables. Your findings will be used by the company clients to understand how exactly the logged salaries vary with the independent variables.</p>
+<p>The data consists of 263 observations of 16 attributes. Below is a brief description of the variables in the data:</p>
+<p><strong>Attributes:</strong></p>
+<ul>
+<li><p><strong>CrAtBat</strong> Career Times at Bat</p></li>
+<li><p><strong>CrBB</strong> Career Walks</p></li>
+<li><p><strong>CrHits</strong> Career Hits</p></li>
+<li><p><strong>CrHome</strong> Career Home Runs</p></li>
+<li><p><strong>CrRbi</strong> Career RBIs</p></li>
+<li><p><strong>CrRuns</strong> Career Runs</p></li>
+<li><p><strong>YrMajor</strong> Years in the Major Leagues</p></li>
+<li><p><strong>nAssts</strong> Assists in 1986</p></li>
+<li><p><strong>nAtBat</strong> Times at Bat in 1986</p></li>
+<li><p><strong>nBB</strong> Walks in 1986</p></li>
+<li><p><strong>nError</strong> Errors in 1986</p></li>
+<li><p><strong>nHits</strong> Hits in 1986</p></li>
+<li><p><strong>nHome</strong> Home Runs in 1986</p></li>
+<li><p><strong>nOuts</strong> Put Outs in 1986</p></li>
+<li><p><strong>nRBI</strong> RBIs in 1986</p></li>
+<li><p><strong>nRuns</strong> Runs in 1986</p></li>
+</ul>
+<p><strong>Outcome:</strong></p>
+<p><strong>LogSalary</strong>: Log of 1987 Salary in $ Thousands</p>
+<p>Below, the dataset is loaded and then split into a train and test sets in a 80:20 ratio. Your job is to use the training set to build the models in Parts 1-3. In Part 4, you will use the test set to check the model performance.</p>
+<section id="do-not-change-anything-in-this-r-chunk.-just-run-the-code-chunk-and-move-to-the-next-one" class="level4">
+<h4 class="anchored" data-anchor-id="do-not-change-anything-in-this-r-chunk.-just-run-the-code-chunk-and-move-to-the-next-one">Do not change anything in this r chunk. Just run the code chunk and move to the next one</h4>
+<div class="cell">
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'boot' was built under R version 4.2.3</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'leaps' was built under R version 4.2.3</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'MASS' was built under R version 4.2.3</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'glmnet' was built under R version 4.2.3</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Loading required package: Matrix</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'Matrix' was built under R version 4.2.3</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Loaded glmnet 4.1-7</code></pre>
+</div>
+</div>
+</section>
+<section id="part-1-full-model-on-all-regressors" class="level3">
+<h3 class="anchored" data-anchor-id="part-1-full-model-on-all-regressors">Part 1: Full Model on All Regressors</h3>
+<p>You will only use <strong>trainData</strong> in <strong>Part 1.</strong></p>
+<p>By using the <strong>trainData</strong>, fit a standard linear regression with the variable <strong>logSalary</strong> as the response and all other attributes as predictors. Name it as <strong>model_full</strong>.</p>
+</section>
+</section>
+<section id="question-1" class="level2">
+<h2 class="anchored" data-anchor-id="question-1">Question #1</h2>
+<p>According to the <strong>model_full</strong> results, which regression coefficients are statistically significant at the 99% confidence level? Select all that apply.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Insert your R code for Question 1 in here</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="co"># HINT: Check the practice materials to see how one can use which() function along with names () function to extract the coefficients. </span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Your code should print out the list variable name</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Fit a linear regression model with all predictors</span></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>model_full <span class="ot">&lt;-</span> <span class="fu">lm</span>(logSalary <span class="sc">~</span> ., <span class="at">data =</span> trainData)</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Get the 99% confidence intervals for the coefficients</span></span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>conf_int <span class="ot">&lt;-</span> <span class="fu">confint</span>(model_full, <span class="at">level =</span> <span class="fl">0.99</span>)</span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Identify the significant coefficients at the 99% confidence level</span></span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>sig_coef <span class="ot">&lt;-</span> <span class="fu">which</span>(conf_int[,<span class="dv">1</span>] <span class="sc">&gt;</span> <span class="dv">0</span> <span class="sc">|</span> conf_int[,<span class="dv">2</span>] <span class="sc">&lt;</span> <span class="dv">0</span>)</span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Get the names of the significant coefficients</span></span>
+<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a>sig_coef_names <span class="ot">&lt;-</span> <span class="fu">names</span>(<span class="fu">coefficients</span>(model_full)[sig_coef])</span>
+<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-18"><a href="#cb8-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Print the list of significant coefficients</span></span>
+<span id="cb8-19"><a href="#cb8-19" aria-hidden="true" tabindex="-1"></a>sig_coef_names</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "(Intercept)" "nBB"         "YrMajor"     "nOuts"      </code></pre>
+</div>
+</div>
+</section>
+<section id="question-2" class="level1">
+<h1>Question 2</h1>
+<p>Calculate the mean-squared prediction error (MSPE), the adjusted <span class="math inline">\(R^2\)</span> , AIC, and BIC criterion values for <strong>model_full.</strong> Enter your selection in Canvas by selecting the closest answer choice from the list.&nbsp;</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Insert your R code for Question 2 in here</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="co"># HINTS: </span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a><span class="co"># You can whether manually calculate or use a package to calculate MSPE</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Adjusted R Square is stored under model_full R object</span></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a><span class="co"># You can consider using AIC() function in stats package to calculate the AIC value</span></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a><span class="co"># You can consider using BIC() function in stats package to calculate the BIC value</span></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a><span class="co"># If you want to print all your answers in one dataframe you can just put it in a dataframe with   data.frame(MSPE=,  ADJR2=, AIC=, BIC=) or just print them separately </span></span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Fit a linear regression model with all predictors using the trainData dataset</span></span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>model_full <span class="ot">&lt;-</span> <span class="fu">lm</span>(logSalary <span class="sc">~</span> ., <span class="at">data =</span> trainData)</span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Compute the residual standard error (MSE) for the model using the trainData dataset</span></span>
+<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a>MSE <span class="ot">&lt;-</span> <span class="fu">summary</span>(model_full)<span class="sc">$</span>sigma<span class="sc">^</span><span class="dv">2</span></span>
+<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-16"><a href="#cb10-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-17"><a href="#cb10-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Get the mean-squared prediction error</span></span>
+<span id="cb10-18"><a href="#cb10-18" aria-hidden="true" tabindex="-1"></a>predicted <span class="ot">&lt;-</span> <span class="fu">predict</span>(model_full, <span class="at">newdata =</span> testData)</span>
+<span id="cb10-19"><a href="#cb10-19" aria-hidden="true" tabindex="-1"></a>actual <span class="ot">&lt;-</span> testData<span class="sc">$</span>logSalary</span>
+<span id="cb10-20"><a href="#cb10-20" aria-hidden="true" tabindex="-1"></a>MSPE <span class="ot">&lt;-</span> <span class="fu">mean</span>((predicted <span class="sc">-</span> actual)<span class="sc">^</span><span class="dv">2</span>)</span>
+<span id="cb10-21"><a href="#cb10-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-22"><a href="#cb10-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Get the adjusted R-squared value</span></span>
+<span id="cb10-23"><a href="#cb10-23" aria-hidden="true" tabindex="-1"></a>adj_R2 <span class="ot">&lt;-</span> model_full<span class="sc">$</span>adj.r.squared</span>
+<span id="cb10-24"><a href="#cb10-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-25"><a href="#cb10-25" aria-hidden="true" tabindex="-1"></a><span class="co"># Get the AIC value</span></span>
+<span id="cb10-26"><a href="#cb10-26" aria-hidden="true" tabindex="-1"></a>AIC <span class="ot">&lt;-</span> <span class="fu">AIC</span>(model_full)</span>
+<span id="cb10-27"><a href="#cb10-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-28"><a href="#cb10-28" aria-hidden="true" tabindex="-1"></a><span class="co"># Get the BIC value</span></span>
+<span id="cb10-29"><a href="#cb10-29" aria-hidden="true" tabindex="-1"></a>BIC <span class="ot">&lt;-</span> <span class="fu">BIC</span>(model_full)</span>
+<span id="cb10-30"><a href="#cb10-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-31"><a href="#cb10-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-32"><a href="#cb10-32" aria-hidden="true" tabindex="-1"></a>MSE</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.3138423</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>MSPE</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.4350211</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>adj_R2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>NULL</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>AIC</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 372.5476</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>BIC</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 432.8811</code></pre>
+</div>
+</div>
+</section>
+<section id="section" class="level1">
+<h1></h1>
+<p>Question 3</p>
+<p>So far, we did not do any feature selection. Instead, we have calculated the Adjusted R-squared, AIC, and BIC criterion values for the full model with all features are included as predictor in our largest model. In the following parts, we will choose the best sub-model based on one of these criterion values.</p>
+<p>Now, your task is to predict <strong>logSalary</strong> with all the predictors in <strong>trainData,</strong> then calculate the mean squared prediction errors (MSPE) in the <strong>trainData</strong> based on 5-fold, 10-fold and leave one out cross-validation approaches?</p>
+<p>Use <strong>cv.glm</strong> function in R to calculate the cross validated estimates. Use <strong>set.seed(5410)</strong> when you calculate the cross-validated estimates</p>
+<p><strong>Note</strong>: Is there an increase or decrease in MSPE with cross validation? You should be able to tell why MSPE is going up with cross-validation method.Since we assume you all know why, you are not required to enter your response in Canvas.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Insert your R code for Question 3 in here</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="co"># HINTS: </span></span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a><span class="co"># You can first create a linear model with glm() function modglm=glm(logSalary ~ ., data = trainData), then call it inside the cv.glm() function</span></span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a><span class="co"># cv.glm(, K=5) gives  you the 5 fold-cross validation results</span></span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a><span class="co"># cv.glm(, K=10) gives  you the 10 fold-cross validation results</span></span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a><span class="co"># cv.glm(, K=n) gives  you the LOOCV results when n is the number of rows in trainData</span></span>
+<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-9"><a href="#cb20-9" aria-hidden="true" tabindex="-1"></a><span class="co"># cv.glm() R object stores two information under delta (cv.glm()$delta). The first information gives the  cross-validation estimate of prediction error, MSPE, that is the answer.  </span></span>
+<span id="cb20-10"><a href="#cb20-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-11"><a href="#cb20-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-12"><a href="#cb20-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-13"><a href="#cb20-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Set the seed for reproducibility</span></span>
+<span id="cb20-14"><a href="#cb20-14" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">5410</span>)</span>
+<span id="cb20-15"><a href="#cb20-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-16"><a href="#cb20-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Fit a linear regression model with all predictors using the trainData dataset</span></span>
+<span id="cb20-17"><a href="#cb20-17" aria-hidden="true" tabindex="-1"></a>model_full <span class="ot">&lt;-</span> <span class="fu">glm</span>(logSalary <span class="sc">~</span> ., <span class="at">data =</span> trainData)</span>
+<span id="cb20-18"><a href="#cb20-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-19"><a href="#cb20-19" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate MSPE using 5-fold cross-validation</span></span>
+<span id="cb20-20"><a href="#cb20-20" aria-hidden="true" tabindex="-1"></a>cv5 <span class="ot">&lt;-</span> <span class="fu">cv.glm</span>(trainData, model_full, <span class="at">K =</span> <span class="dv">5</span>)</span>
+<span id="cb20-21"><a href="#cb20-21" aria-hidden="true" tabindex="-1"></a>MSPE_5 <span class="ot">&lt;-</span> cv5<span class="sc">$</span>delta[<span class="dv">1</span>]</span>
+<span id="cb20-22"><a href="#cb20-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-23"><a href="#cb20-23" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate MSPE using 10-fold cross-validation</span></span>
+<span id="cb20-24"><a href="#cb20-24" aria-hidden="true" tabindex="-1"></a>cv10 <span class="ot">&lt;-</span> <span class="fu">cv.glm</span>(trainData, model_full, <span class="at">K =</span> <span class="dv">10</span>)</span>
+<span id="cb20-25"><a href="#cb20-25" aria-hidden="true" tabindex="-1"></a>MSPE_10 <span class="ot">&lt;-</span> cv10<span class="sc">$</span>delta[<span class="dv">1</span>]</span>
+<span id="cb20-26"><a href="#cb20-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-27"><a href="#cb20-27" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate MSPE using leave-one-out cross-validation</span></span>
+<span id="cb20-28"><a href="#cb20-28" aria-hidden="true" tabindex="-1"></a>cv_loo <span class="ot">&lt;-</span> <span class="fu">cv.glm</span>(trainData, model_full, <span class="at">K =</span> <span class="fu">nrow</span>(trainData))</span>
+<span id="cb20-29"><a href="#cb20-29" aria-hidden="true" tabindex="-1"></a>MSPE_loo <span class="ot">&lt;-</span> cv_loo<span class="sc">$</span>delta[<span class="dv">1</span>]</span>
+<span id="cb20-30"><a href="#cb20-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-31"><a href="#cb20-31" aria-hidden="true" tabindex="-1"></a>MSPE_5</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.3603185</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>MSPE_10</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.3544171</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>MSPE_loo</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.3530806</code></pre>
+</div>
+</div>
+</section>
+<section id="part-2-best-subset-model-search" class="level1">
+<h1>Part 2: Best Subset Model Search</h1>
+<p>You will only use <strong>trainData</strong> in Part 2.</p>
+</section>
+<section id="question-4" class="level1">
+<h1>Question 4</h1>
+<p>What is the total number of different models that can be built from all possible combinations of the predictors with p=16?</p>
+<p>No coding is needed for Question 4. Just answer it in Canvas.</p>
+</section>
+<section id="question-5" class="level1">
+<h1>Question 5</h1>
+<p>Warning: This question can be challenging.</p>
+<p>In this part, we will use <strong>leaps</strong> function in the <strong>leaps</strong> library in R to compare all possible models and decide on the best model by using Adjusted R-squared criteria on <strong>trainData</strong>.</p>
+<p>Which set of predictors will give you the highest Adjusted R-squared value when we use the <strong><em>trainData</em></strong> to train all possible subset models. Use <strong>leaps</strong> function in the <strong>leaps</strong> library in R to compare all possible models and decide on the best model. You can use leaps package and set the <strong>nbest</strong> parameter to <strong>1</strong> to get the desired table.</p>
+<p>The leaps function in R can help you to construct a table indicating the variables included in the best model of each size (p=1,p=2,…, p=16) and the corresponding Adjusted R-squared value. Hint: The table must include 16 rows, the best subset for each k. Check the lab help recordings for the details. You can use leaps package and set the nbest parameter to 1 to get the desired table. Alternatively, you can use `regsubsets` function in leaps package to get the same results.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Insert your R code for Question 5 in here</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a><span class="co"># HINTS: </span></span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a><span class="co"># You can store the predictor names with  col_names = names(trainData)[-17] and insert it into leaps() function as names= col_names)</span></span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a><span class="co"># nbest=1 will give   you the highest performing model for each set (models with  only 1 predictor, models  with only two predictors, ,,,,, models  with only 16 predictor)</span></span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a><span class="co"># After creating the leaps object, tou can first fet the index of best model with which () function, then print the best AdjR2 values for each set</span></span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a><span class="co"># In the leaps () output, the coefficient 1 in front a coefficient indicates it has been selected on that set, O means not selected</span></span>
+<span id="cb26-8"><a href="#cb26-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-9"><a href="#cb26-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-10"><a href="#cb26-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Use the regsubsets function from leaps to find the best subset model</span></span>
+<span id="cb26-11"><a href="#cb26-11" aria-hidden="true" tabindex="-1"></a>subset_models <span class="ot">&lt;-</span> <span class="fu">regsubsets</span>(logSalary <span class="sc">~</span> ., <span class="at">data =</span> trainData, <span class="at">nbest =</span> <span class="dv">1</span>, <span class="at">nvmax =</span> <span class="dv">16</span>, <span class="at">method =</span> <span class="st">"exhaustive"</span>)</span>
+<span id="cb26-12"><a href="#cb26-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-13"><a href="#cb26-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Extract the summary of the subset models</span></span>
+<span id="cb26-14"><a href="#cb26-14" aria-hidden="true" tabindex="-1"></a>subset_summary <span class="ot">&lt;-</span> <span class="fu">summary</span>(subset_models)</span>
+<span id="cb26-15"><a href="#cb26-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-16"><a href="#cb26-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Find the index of the best subset model based on Adjusted R-squared value</span></span>
+<span id="cb26-17"><a href="#cb26-17" aria-hidden="true" tabindex="-1"></a>best_model_idx <span class="ot">&lt;-</span> <span class="fu">which.max</span>(subset_summary<span class="sc">$</span>adjr2)</span>
+<span id="cb26-18"><a href="#cb26-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-19"><a href="#cb26-19" aria-hidden="true" tabindex="-1"></a><span class="co"># Extract the names of the predictors in the best subset model</span></span>
+<span id="cb26-20"><a href="#cb26-20" aria-hidden="true" tabindex="-1"></a>best_predictors <span class="ot">&lt;-</span> <span class="fu">names</span>(<span class="fu">coef</span>(subset_models, <span class="at">id =</span> best_model_idx)[<span class="sc">-</span><span class="dv">1</span>])</span>
+<span id="cb26-21"><a href="#cb26-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-22"><a href="#cb26-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Print the names of the predictors in the best subset model</span></span>
+<span id="cb26-23"><a href="#cb26-23" aria-hidden="true" tabindex="-1"></a>best_predictors</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "nAtBat"  "nHits"   "nBB"     "YrMajor" "CrRuns"  "CrBB"    "nOuts"  </code></pre>
+</div>
+</div>
+</section>
+<section id="part-3-regularized-regression" class="level1">
+<h1>Part 3: Regularized Regression</h1>
+<p>You will only use <strong>trainData</strong> in Part 3.</p>
+</section>
+<section id="question-6" class="level1">
+<h1>Question 6</h1>
+<p>Now, we will use the <strong>trainData</strong> and perform RIDGE regression on the full model (<strong>model_full</strong>). Before performing Ridge regression, we need to standardize the predictors but there are some packages that standardize variables for you. In that case, there is no need to standardize predictors twice. For this RLab assignment, please use <strong>glmnet</strong> package so that you do not have to worry about standardizing your features.</p>
+<p>Your task is to write an R code to apply Ridge regression on <strong>trainData</strong> set with <strong>10-fold cross validation</strong>. Print the optimized lambda value and the minimum mean cross-validated Error. Keep the default loss function (t<strong>ype.measure=“mse”</strong>).</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Insert your R code for Question 6 in here</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a><span class="co"># HINTS: </span></span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a><span class="co"># in cv.glmnet() function choose  family='gaussian', type.measure="mse", alpha=0, nfolds=10 for the desired results</span></span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a><span class="co"># optimized lamba is stored under the cv.glmnet() R object</span></span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Minimum Mean CV Error is stored under cv.glmnet() R object</span></span>
+<span id="cb28-6"><a href="#cb28-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-7"><a href="#cb28-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-8"><a href="#cb28-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Optimize lambda using 10-fold cross validation</span></span>
+<span id="cb28-9"><a href="#cb28-9" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">5410</span>)</span>
+<span id="cb28-10"><a href="#cb28-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-11"><a href="#cb28-11" aria-hidden="true" tabindex="-1"></a><span class="co"># create matrix of predictors and response variable</span></span>
+<span id="cb28-12"><a href="#cb28-12" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fu">model.matrix</span>(logSalary <span class="sc">~</span> ., <span class="at">data =</span> trainData)</span>
+<span id="cb28-13"><a href="#cb28-13" aria-hidden="true" tabindex="-1"></a>y <span class="ot">&lt;-</span> trainData<span class="sc">$</span>logSalary</span>
+<span id="cb28-14"><a href="#cb28-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-15"><a href="#cb28-15" aria-hidden="true" tabindex="-1"></a><span class="co"># perform ridge regression using cv.glmnet function with 10-fold cross validation</span></span>
+<span id="cb28-16"><a href="#cb28-16" aria-hidden="true" tabindex="-1"></a>cv_fit <span class="ot">&lt;-</span> <span class="fu">cv.glmnet</span>(x, y, <span class="at">alpha =</span> <span class="dv">0</span>, <span class="at">nfolds =</span> <span class="dv">10</span>)</span>
+<span id="cb28-17"><a href="#cb28-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-18"><a href="#cb28-18" aria-hidden="true" tabindex="-1"></a><span class="co"># get the minimum MSE value and corresponding lambda value</span></span>
+<span id="cb28-19"><a href="#cb28-19" aria-hidden="true" tabindex="-1"></a>min_mse <span class="ot">&lt;-</span> cv_fit<span class="sc">$</span>cvm[cv_fit<span class="sc">$</span>lambda <span class="sc">==</span> cv_fit<span class="sc">$</span>lambda.min]</span>
+<span id="cb28-20"><a href="#cb28-20" aria-hidden="true" tabindex="-1"></a>min_lambda <span class="ot">&lt;-</span> cv_fit<span class="sc">$</span>lambda.min</span>
+<span id="cb28-21"><a href="#cb28-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-22"><a href="#cb28-22" aria-hidden="true" tabindex="-1"></a><span class="co"># print the minimum MSE value and corresponding lambda value</span></span>
+<span id="cb28-23"><a href="#cb28-23" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Minimum MSE value:"</span>, min_mse, <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Minimum MSE value: 0.3358273 </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb30"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Corresponding lambda value:"</span>, min_lambda, <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Corresponding lambda value: 0.08008381 </code></pre>
+</div>
+</div>
+</section>
+<section id="question-7" class="level1">
+<h1>Question 7</h1>
+<p>Now, we will use the <strong>trainData</strong> and perform <strong>LASSO</strong> regression on the full model (<strong>model_full</strong>). Please use <strong>glmnet</strong> package so that you do not have to worry about standardizing your features.</p>
+<p>Your task is to write an R code to apply <strong>LASSO</strong> regression on <strong>trainData</strong> set with <strong>10-fold cross validation.</strong> Print the optimized lambda value and the minimum mean cross-validated Error. Keep the default loss function (type.measure=“mse”).</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb32"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Insert your R code for Question 7 in here</span></span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a><span class="co"># HINTS: </span></span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a><span class="co"># in cv.glmnet() function choose  family='gaussian', type.measure="mse", alpha=0, nfolds=10 for the desired results</span></span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a><span class="co"># optimized lamba is stored under the cv.glmnet() R object</span></span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Minimum Mean CV Error is stored under cv.glmnet() R object</span></span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-8"><a href="#cb32-8" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">5410</span>)</span>
+<span id="cb32-9"><a href="#cb32-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-10"><a href="#cb32-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Create matrix of predictors (excluding logSalary)</span></span>
+<span id="cb32-11"><a href="#cb32-11" aria-hidden="true" tabindex="-1"></a>predictors <span class="ot">&lt;-</span> <span class="fu">model.matrix</span>(logSalary <span class="sc">~</span> ., <span class="at">data =</span> trainData)[,<span class="sc">-</span><span class="dv">1</span>]</span>
+<span id="cb32-12"><a href="#cb32-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-13"><a href="#cb32-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Create response variable</span></span>
+<span id="cb32-14"><a href="#cb32-14" aria-hidden="true" tabindex="-1"></a>response <span class="ot">&lt;-</span> trainData<span class="sc">$</span>logSalary</span>
+<span id="cb32-15"><a href="#cb32-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-16"><a href="#cb32-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Perform LASSO regression with 10-fold cross validation</span></span>
+<span id="cb32-17"><a href="#cb32-17" aria-hidden="true" tabindex="-1"></a>lasso_model <span class="ot">&lt;-</span> <span class="fu">cv.glmnet</span>(predictors, response, <span class="at">alpha =</span> <span class="dv">1</span>, <span class="at">family =</span> <span class="st">"gaussian"</span>, <span class="at">type.measure =</span> <span class="st">"mse"</span>, <span class="at">nfolds =</span> <span class="dv">10</span>)</span>
+<span id="cb32-18"><a href="#cb32-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-19"><a href="#cb32-19" aria-hidden="true" tabindex="-1"></a><span class="co"># Get optimized lambda value</span></span>
+<span id="cb32-20"><a href="#cb32-20" aria-hidden="true" tabindex="-1"></a>opt_lambda <span class="ot">&lt;-</span> lasso_model<span class="sc">$</span>lambda.min</span>
+<span id="cb32-21"><a href="#cb32-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-22"><a href="#cb32-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Get minimum mean CV error</span></span>
+<span id="cb32-23"><a href="#cb32-23" aria-hidden="true" tabindex="-1"></a>min_mse <span class="ot">&lt;-</span> lasso_model<span class="sc">$</span>cvm[<span class="fu">which.min</span>(lasso_model<span class="sc">$</span>cvm)]</span>
+<span id="cb32-24"><a href="#cb32-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-25"><a href="#cb32-25" aria-hidden="true" tabindex="-1"></a><span class="co"># Print results</span></span>
+<span id="cb32-26"><a href="#cb32-26" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Optimized lambda value:"</span>, opt_lambda, <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Optimized lambda value: 0.02811896 </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb34"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Minimum mean CV error:"</span>, min_mse, <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Minimum mean CV error: 0.3273982 </code></pre>
+</div>
+</div>
+</section>
+<section id="question-8" class="level1">
+<h1>Question 8</h1>
+<p>Which variables were selected based on LASSO?</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb36"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Insert your R code for Question 7 in here</span></span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a><span class="co"># HINTS: use coef() to extract the coefficients. Any coefficient with 0 estimate is dropped from the regression</span></span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a><span class="co"># set seed for reproducibility</span></span>
+<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">5410</span>)</span>
+<span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-6"><a href="#cb36-6" aria-hidden="true" tabindex="-1"></a><span class="co"># create design matrix and response variable for train data</span></span>
+<span id="cb36-7"><a href="#cb36-7" aria-hidden="true" tabindex="-1"></a>x_train <span class="ot">&lt;-</span> <span class="fu">model.matrix</span>(logSalary <span class="sc">~</span> ., <span class="at">data =</span> trainData)</span>
+<span id="cb36-8"><a href="#cb36-8" aria-hidden="true" tabindex="-1"></a>y_train <span class="ot">&lt;-</span> trainData<span class="sc">$</span>logSalary</span>
+<span id="cb36-9"><a href="#cb36-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-10"><a href="#cb36-10" aria-hidden="true" tabindex="-1"></a><span class="co"># fit LASSO regression model with cross-validation</span></span>
+<span id="cb36-11"><a href="#cb36-11" aria-hidden="true" tabindex="-1"></a>lasso_fit <span class="ot">&lt;-</span> <span class="fu">cv.glmnet</span>(x_train, y_train, <span class="at">family =</span> <span class="st">"gaussian"</span>, <span class="at">type.measure =</span> <span class="st">"mse"</span>, <span class="at">alpha =</span> <span class="dv">1</span>, <span class="at">nfolds =</span> <span class="dv">10</span>)</span>
+<span id="cb36-12"><a href="#cb36-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-13"><a href="#cb36-13" aria-hidden="true" tabindex="-1"></a><span class="co"># get coefficients for the optimal lambda</span></span>
+<span id="cb36-14"><a href="#cb36-14" aria-hidden="true" tabindex="-1"></a>lasso_coef <span class="ot">&lt;-</span> <span class="fu">coef</span>(lasso_fit, <span class="at">s =</span> <span class="st">"lambda.min"</span>)</span>
+<span id="cb36-15"><a href="#cb36-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-16"><a href="#cb36-16" aria-hidden="true" tabindex="-1"></a><span class="co"># get variable names with non-zero coefficients</span></span>
+<span id="cb36-17"><a href="#cb36-17" aria-hidden="true" tabindex="-1"></a>lasso_vars <span class="ot">&lt;-</span> <span class="fu">rownames</span>(lasso_coef)[lasso_coef[, <span class="dv">1</span>] <span class="sc">!=</span> <span class="dv">0</span>]</span>
+<span id="cb36-18"><a href="#cb36-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-19"><a href="#cb36-19" aria-hidden="true" tabindex="-1"></a><span class="co"># print the variable names selected by LASSO</span></span>
+<span id="cb36-20"><a href="#cb36-20" aria-hidden="true" tabindex="-1"></a>lasso_vars</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "(Intercept)" "nHits"       "nRBI"        "nBB"         "YrMajor"    
+[6] "CrHits"      "CrRbi"       "nOuts"      </code></pre>
+</div>
+</div>
+</section>
+<section id="part-4" class="level1">
+<h1>PART 4</h1>
+<p>You will only use <strong>testData</strong> in Part 4.</p>
+<p>Now, it is time to put all the fitted models a test. Predict <strong>logSalary</strong> for each of the rows in the test data, <strong>testData</strong>, using model_full in Part 1, best subset model in Part 2, and Ridge and Lasso Regression models in Part 3.</p>
+<p>Calculate the MSPE on the test set for each model and insert your answer in Canvas.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb38"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="co">#  Insert your R code for Question 7 in here</span></span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Prediction using model_full</span></span>
+<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a>pred_full <span class="ot">&lt;-</span> <span class="fu">predict</span>(model_full, <span class="at">newdata =</span> testData)</span>
+<span id="cb38-4"><a href="#cb38-4" aria-hidden="true" tabindex="-1"></a>mspe_full <span class="ot">&lt;-</span> <span class="fu">mean</span>((testData<span class="sc">$</span>logSalary <span class="sc">-</span> pred_full)<span class="sc">^</span><span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
